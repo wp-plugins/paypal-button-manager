@@ -1,13 +1,13 @@
 <?php
 
 /**
- * @class       MBJ_PayPal_Payment_Admin_Display
+ * @class       MBJ_PayPal_Button_Manager_For_WordPress_Admin_Display
  * @version	1.0.0
  * @package	paypal-button-manager-for-wordpress
  * @category	Class
  * @author      plugingexperts <plugingexperts@gmail.com>
  */
-class MBJ_PayPal_Payment_Admin_Display {
+class MBJ_PayPal_Button_Manager_For_WordPress_Admin_Display {
 
     /**
      * Hook in methods
@@ -115,4 +115,4 @@ class MBJ_PayPal_Payment_Admin_Display {
 
 }
 
-MBJ_PayPal_Payment_Admin_Display::init();
+MBJ_PayPal_Button_Manager_For_WordPress_Admin_Display::init();
