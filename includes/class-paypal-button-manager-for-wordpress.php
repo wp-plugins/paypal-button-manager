@@ -49,7 +49,7 @@ class MBJ_PayPal_Button_Manager_For_WordPress {
     public function __construct() {
 
         $this->plugin_name = 'paypal-button-manager-for-wordpress';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
 
         $this->load_dependencies();
         $this->set_locale();
@@ -121,23 +121,10 @@ class MBJ_PayPal_Button_Manager_For_WordPress {
     private function define_admin_hooks() {
 
         $plugin_admin = new MBJ_PayPal_Button_Manager_For_WordPress_Admin($this->get_plugin_name(), $this->get_version());
+        $this->loader->add_filter('woocommerce_paypal_args', $plugin_admin, 'button_manage_for_woocommerce_standard_parameters', 99, 1);
     }
 
-    /**
-     * Register all of the hooks related to the public-facing functionality
-     * of the plugin.
-     *
-     * @since    1.0.0
-     * @access   private
-     */
-    private function define_public_hooks() {
-
-        $plugin_public = new MBJ_PayPal_Button_Manager_For_WordPress_Public($this->get_plugin_name(), $this->get_version());
-
-        $this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_styles');
-        $this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_scripts');
-    }
-
+   
     /**
      * Run the loader to execute all of the hooks with WordPress.
      *
