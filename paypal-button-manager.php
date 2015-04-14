@@ -4,10 +4,10 @@
  *
  * @wordpress-plugin
  * Plugin Name:       PayPal Button Manager for WordPress
- * Plugin URI:        http://www.mbjtechnolabs.com
+ * Plugin URI:        http://webs-spider.com/
  * Description:       Easy to use add a PayPal Button as a Page, Post and Widget with a shortcode
- * Version:           1.0.1
- * Author:            plugingexperts <plugingexperts@gmail.com>
+ * Version:           1.0.2
+ * Author:            johnwickjigo
  * Author URI:        http://www.mbjtechnolabs.com
  * License:           GNU General Public License v3.0
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
