@@ -3,7 +3,7 @@
 /**
  *
  * @wordpress-plugin
- * Plugin Name:       PayPal Button Manager for WordPress
+ * Plugin Name:       PayPal Button
  * Plugin URI:        http://webs-spider.com/
  * Description:       Easy to use add a PayPal Button as a Page, Post and Widget with a shortcode
  * Version:           1.0.2
