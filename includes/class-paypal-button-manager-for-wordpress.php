@@ -49,7 +49,7 @@ class MBJ_PayPal_Button_Manager_For_WordPress {
     public function __construct() {
 
         $this->plugin_name = 'paypal-button-manager-for-wordpress';
-        $this->version = '1.0.1';
+        $this->version = '1.2.0';
 
         $this->load_dependencies();
         $this->set_locale();
